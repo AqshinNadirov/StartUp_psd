@@ -4,12 +4,11 @@
 
 
 .container{
-    width: 1160px;
+    max-width: 1160px;
     margin: 0 auto;
 }
 
 .promo{
-    display: flex;
     background:url(../img/bg_1.jpg) center center/cover no-repeat;
     height: 770px;
     width: 100%;
@@ -39,6 +38,7 @@
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+    // margin-right: 510px;
     font-weight: 700;
 }
 
