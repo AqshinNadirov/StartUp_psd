@@ -15,3 +15,35 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+
+
+
+$(document).ready(function(){
+    $('.about__img_wrapper').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<button type="button" class="slick-prev"><img src="../icon/left.svg"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="../icon/right.svg"></button>',
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                arrows: false
+              }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  arrows: false
+                }
+              }
+         ]
+    });
+  });
+          
