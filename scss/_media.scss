@@ -1,5 +1,7 @@
 @media (max-width: 1200px) {
-
+    .works__img__wrapper{
+        justify-content: center;
+    }
 }
 
 
@@ -100,5 +102,38 @@
     }
     .promo__subtitle{
         font-size: 15px;
+    }
+
+    .about{
+        .about-body_wrapper{
+            flex-direction: column;
+        }
+        .about__text{
+            margin-bottom: 30px;
+            &:nth-child(2){
+                margin-left: 0;
+                margin-bottom: 71px;
+            }
+        }
+    }
+
+    .works__img__wrapper{
+        img{
+            width: 98%;
+        }
+    }
+
+    .works{
+        .works__subtitle{
+            line-height: 29px;
+            a{
+                font-size: 17px;
+                line-height: 28px;
+                margin-left: 12px ;
+                &:nth-child(1){
+                    // margin-left: 0;
+                }
+            }
+        }
     }
 }

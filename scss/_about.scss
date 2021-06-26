@@ -1,5 +1,6 @@
 .about{
     padding: 99px 0;
+    background-color: #f8f8f8;
 }
 
 
@@ -11,8 +12,14 @@
 .about__text{
     max-width: 575px;
     margin-bottom: 71px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 20px;
     &:nth-child(2){
         margin-left: 32px;
+        padding-right: 20px;
     }
 }
 
@@ -35,6 +42,12 @@
     p{
     margin-top: 5px;
     margin-bottom: 0;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
         &:nth-child(3){
             color: #555555;
             font-family: "Roboto Slab";
@@ -55,7 +68,13 @@
 text-align: center;
     p{
     margin-top: 5px;
-    margin-bottom: 0;   
+    margin-bottom: 0;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
         &:nth-child(3){
             color: #555555;
             font-family: "Roboto Slab";
@@ -76,6 +95,12 @@ text-align: center;
     p{
     margin-top: 5px;
     margin-bottom: 0;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
         &:nth-child(3){
             color: #555555;
             font-family: "Roboto Slab";
@@ -95,8 +120,13 @@ text-align: center;
     p{
     margin-top: 5px;
     margin-bottom: 0;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
         &:nth-child(3){
-
             color: #555555;
             font-family: "Roboto Slab";
             font-size: 13px;
@@ -116,7 +146,7 @@ text-align: center;
     max-width: 150px;
     width: 40px;
     position: absolute;
-    right: 39px;
+    right: 45px;
     bottom: 50%;
     display: block;
     transform: translateY(-50%);
@@ -129,7 +159,7 @@ text-align: center;
     background-color: inherit;
     width: 40px;
     position: absolute;
-    left: 39px;
+    left: 45px;
     bottom: 50%;
     display: block;
     transform: translateY(-50%);

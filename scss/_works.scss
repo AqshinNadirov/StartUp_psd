@@ -1,0 +1,35 @@
+.works{
+    padding: 99px 0;
+}
+
+.works__subtitle{
+    a{
+        color: #555555;
+        font-family: "Roboto Slab";
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 28px;
+        &:nth-child(1){
+            margin-left: 0;
+            color: #ff0000
+        }
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.works__body{
+    margin-top: 70px;
+}
+.works__img__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    width: 100%;
+    img{
+    padding: 10px;
+    }
+}
