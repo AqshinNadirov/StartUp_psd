@@ -45,5 +45,9 @@ $(document).ready(function(){
               }
          ]
     });
+
+    $('.works__subtitle').on('click', function (e) {
+      e.preventDefault(); // Defaul Browser 
+  });
   });
           

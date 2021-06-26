@@ -1,0 +1,36 @@
+.doyou{
+    min-height: 369px; /* установил здесь min-height если будет проблема со следуйщей секцией, то может быть из-за этого */
+    background: url(../img/bg_2.jpg)  center (center/cover) no-repeat;
+}
+
+.doyou__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.doyou__text{
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 99px;
+    max-width: 454px;
+    text-align: center;
+}
+
+.doyou_btn{
+    background-color: inherit;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 53px auto;
+}
