@@ -46,8 +46,8 @@ $(document).ready(function(){
          ]
     });
 
-    $('.works__subtitle').on('click', function (e) {
-      e.preventDefault(); // Defaul Browser 
+    $('.works__subtitle, .read__more').on('click', function (e) {
+      e.preventDefault(); // Default Browser 
   });
   });
           
