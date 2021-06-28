@@ -1,0 +1,29 @@
+.noname{
+    padding: 114px 0 100px 0;
+    min-height: 477px; /* ЕСЛИ БУДУТ ПРОБЛЕМЫ С ВЕРТСКОЙ СЛЕДУИЩЕЙ СЕКЦИИ, ТО НУЖНО СНАЧАЛА ЗДЕСЬ СМОТРЕТЬ */
+    background-color: #f8f8f8;
+}
+
+
+.noname__logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.noname__text{
+    max-width: 763px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    margin: 84px auto;
+}
+
+.noname__immitate{
+    text-align: center;
+}
