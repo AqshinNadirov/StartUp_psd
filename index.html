@@ -27,7 +27,7 @@
                                     <a href="#works">works</a>
                                     <a href="#doyou">blog</a>
                                     <a href="#clients">clients</a>
-                                    <a href="#">contact</a>
+                                    <a href="#contact">contact</a>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +249,7 @@
     </section>
 
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="contact__adress">
                 <div class="title__wrapper">
@@ -259,33 +259,35 @@
                 
                 <div class="contact__body_wrapper">
                     <div class="contact__adress_wrapper">
-                        <div class="contact__1">
-                            <div class="contact__img">
-                                <img src="icon/map.png" alt="">
+                        <div class="contact__wrapper__column">
+                            <div class="contact__1">
+                                <div class="contact__img">
+                                    <img src="icon/map.png" alt="">
+                                </div>
+                                <div class="contact__text">
+                                    <div class="contact__title">ADDRESS</div>
+                                    <div class="contact__subtitle">312, 7th Ave, New York <br> NY 101200, United States of America</div>
+                                </div>
                             </div>
-                            <div class="contact__text">
-                                <div class="contact__title">ADDRESS</div>
-                                <div class="contact__subtitle">312, 7th Ave, New York <br> NY 101200, United States of America</div>
+        
+                            <div class="contact__1">
+                                <div class="contact__img">
+                                    <img src="icon/phone.png" alt="">
+                                </div>
+                                <div class="contact__text">
+                                    <div class="contact__title">Hotline (24x7)</div>
+                                    <div class="contact__subtitle">312, 7th Ave, New York <br> NY 101200, United States of America</div>
+                                </div>
                             </div>
-                        </div>
-    
-                        <div class="contact__1">
-                            <div class="contact__img">
-                                <img src="icon/phone.png" alt="">
-                            </div>
-                            <div class="contact__text">
-                                <div class="contact__title">Hotline (24x7)</div>
-                                <div class="contact__subtitle">312, 7th Ave, New York <br> NY 101200, United States of America</div>
-                            </div>
-                        </div>
-    
-                        <div class="contact__1">
-                            <div class="contact__img">
-                                <img src="icon/mail.png" alt="">
-                            </div>
-                            <div class="contact__text">
-                                <div class="contact__title">E-mail</div>
-                                <div class="contact__subtitle">312, 7th Ave, New York <br> NY 101200, United States of America</div>
+        
+                            <div class="contact__1">
+                                <div class="contact__img">
+                                    <img src="icon/mail.png" alt="">
+                                </div>
+                                <div class="contact__text">
+                                    <div class="contact__title">E-mail</div>
+                                    <div class="contact__subtitle">312, 7th Ave, New York <br> NY 101200, United States of America</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -293,17 +295,17 @@
                     <div class="contact__input">
                         <div class="contact__input_wrapper">
                             <div class="input__1">
-                                <div class="input"><input type="text" placeholder="YOUR NAME"></div>
-                                <div class="input"><input type="text" placeholder="Your subject"></div>
+                                <div class="input"><input type="text" placeholder="YOUR NAME"  tabindex="1"></div>
+                                <div class="input"><input type="text" placeholder="YOUR SUBJECT"  tabindex="3"></div>
                             </div>
                             <div class="input__2">
-                                <div class="input"><input type="email" placeholder="YOUR E-MAIL"></div>
-                                <div class="input"><input type="text" placeholder="COMPANY NAME"></div>
+                                <div class="input"><input type="email" placeholder="YOUR E-MAIL" tabindex="2"></div>
+                                <div class="input"><input type="text" placeholder="COMPANY NAME"  tabindex="4"></div>
                             </div>
                         </div>
                         
                         <div class="textarea__wrapper"  id="textarea">
-                            <textarea name="UserText" cols="30" rows="5" placeholder="Write your message"></textarea>
+                            <textarea name="UserText" cols="30" rows="5" placeholder="WRITE YOUR MESSAGE"></textarea>
                         </div>
                         <div class="contact__button_wrapper">
                             <button class="button contact__button">Send message</button>

@@ -35,6 +35,60 @@
     .client__body{
         margin-top: 39px;
     }
+
+    .contact{
+        .contact__body_wrapper{
+            flex-direction: column;
+        }
+        .contact__input_wrapper{
+            justify-content: center;
+        }
+        .textarea__wrapper{
+            display: flex;
+            justify-content: center;
+        }
+        .contact__wrapper__column{
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .input__1{
+            input{
+                width: 280px;
+
+            }
+        }
+
+        .input__2{
+            input{
+                width: 280px;
+                
+            }
+        }
+
+        #textarea{
+            textarea{
+                width: 590px;
+            }
+        }
+        
+        .contact__button_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact__wrapper__column{
+            margin-bottom: 50px;
+        }
+
+        .button__text{
+            margin-top: 10px;
+        }
+    }
 }
 @media (max-width: 767px){
     .header__text{
@@ -103,6 +157,15 @@
         font-size: 15px;
     }
     
+}
+
+.contact__input_wrapper{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .input__1{
+        margin-right: 0;
+    }
 }
 }
 
@@ -204,5 +267,27 @@
             font-size: 15px;
         }
     }
+
+
+    // Contact
+    .contact{
+        #textarea{
+            textarea{
+                width: 280px;
+            }
+        }
+        .contact__subtitle{
+            margin-bottom: 20px;
+        }
+        .about_subtitle{
+            margin-bottom: 20px;
+        }
+
+        .button__text{
+            margin-left: 0;
+        }
+    }
+
+
 
 }

@@ -1,5 +1,5 @@
 .contact{
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .contact__adress_wrapper{
@@ -48,6 +48,7 @@
 .contact__body_wrapper{
     display: flex;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .contact__input_wrapper{
@@ -68,7 +69,6 @@
         letter-spacing: normal;
         line-height: 20px;
         text-align: left;
-        text-transform: uppercase;
         padding: 17px;
         border: 1px solid #555555;
         &:focus{
@@ -110,9 +110,10 @@
         padding: 17px;
         line-height: 20px;
         text-align: left;
-        text-transform: uppercase;
+        border: 1px solid #555555;
         &:focus{
             outline: none;
+            border: 1px solid #c0301c;
         }
         // width: 50%; Нужно установить Width: 50%; при адаптации
     }
