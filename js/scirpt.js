@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.header__text'),
-    menuItem = document.querySelectorAll('.header__text_active'),
+    menuItem = document.querySelectorAll('.header__text'), /* Если будут ошибки с гамбургером, может быть из-за этого, до этого было .header__text_active */
     hamburger = document.querySelector('.hamburger');
 
     hamburger.addEventListener('click', () => {

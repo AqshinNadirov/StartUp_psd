@@ -133,6 +133,7 @@
         }
         .about__text{
             margin-bottom: 30px;
+            padding: 0 10px;
             &:nth-child(2){
                 margin-left: 0;
                 margin-bottom: 71px;
@@ -153,9 +154,6 @@
                 font-size: 17px;
                 line-height: 28px;
                 margin-left: 12px ;
-                &:nth-child(1){
-                    // margin-left: 0;
-                }
             }
         }
     }
